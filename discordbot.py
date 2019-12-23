@@ -1,4 +1,5 @@
 import discord
+import os
 
 # 自分のBotのアクセストークンに置き換えてください
 TOKEN =  os.environ['DISCORD_BOT_TOKEN']
