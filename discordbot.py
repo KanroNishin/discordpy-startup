@@ -5,7 +5,7 @@ import traceback
 from func import diceroll
 
 bot = commands.Bot(command_prefix='/')
-token ='NjU2NjE4NTkyNDM1MTc1NDQ0.XgEUBw.wj54vgXMi_0daPtoiPo_budCAjw'
+token = os.environ['DISCORD_BOT_TOKEN']
 
 
 @bot.event
