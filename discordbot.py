@@ -3,6 +3,7 @@ import os
 import sys
 
 from func import diceroll
+from Meow import neko
 
 # 自分のBotのアクセストークンに置き換えてください
 TOKEN =  os.environ['DISCORD_BOT_TOKEN']
@@ -23,8 +24,9 @@ async def on_message(message):
         return
 #ねこ移植
     if message.content.startswith("/neko"):
-        
-        await message.channel.send('にゃーん')
+        MeowText =neko()
+        await message.channel.send(MeowText)
+        #await message.channel.send('にゃーん')
 
     if message.content.startswith("/dice"):
         # 入力された内容を受け取る
