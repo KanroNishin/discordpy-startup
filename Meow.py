@@ -1,7 +1,7 @@
 import random
 
-def neko(self):
+def neko():
     MeowList=["にゃーん","ﾆｼﾝ!","ﾆｬｰﾝ","ｼｬｰｯ","ｺﾞﾛｺﾞﾛ"]
-    num=random.randint(0,3)
+    num=random.randint(0,4)
 
     return MeowList[num]
